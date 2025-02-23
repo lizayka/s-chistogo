@@ -4,9 +4,28 @@ body {
     font-family: Inter_regular, serif; 
 }
 
+
 .header {
     padding: 24px 20px;
     background-color: black;
+    display: flex;
+    justify-content: space-between;
+}
+
+.header_logo-image {
+  width: 78px;
+  height: 15px;
+}
+
+.header_menu {
+    color: whitesmoke;
+}
+
+.header_menu-list {
+    list-style: none;
+    display: flex;
+    flex-direction: column;
+    gap: 12px;
 }
 
 h1, h2, h3, h4, h5, h6, p, ul, ol, blockquote {
@@ -38,7 +57,7 @@ h1, h2, h3, h4, h5, h6, p, ul, ol, blockquote {
 }
 
 .reasons {
-    padding: 20px 40px 39px 20px;
+    padding: 40px 20px 39px 20px;
 }
 
 .how-to {
