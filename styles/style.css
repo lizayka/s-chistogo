@@ -1,7 +1,11 @@
 body {
     margin: 0;
-    background-color:#115522;
-    font-family: Inter_regular, serif; 
+    background: color #1e1e1e;;
+    font-family: Inter_regular, sans-serif;
+    font-weight: 400; 
+}
+a {
+    color:aliceblue;
 }
 
 
@@ -18,7 +22,7 @@ body {
 }
 
 .header_menu {
-    color: whitesmoke;
+   
 }
 
 .header_menu-list {
@@ -26,6 +30,9 @@ body {
     display: flex;
     flex-direction: column;
     gap: 12px;
+}
+.header_menu-item {
+    color: aliceblue;
 }
 
 h1, h2, h3, h4, h5, h6, p, ul, ol, blockquote {
@@ -49,11 +56,43 @@ h1, h2, h3, h4, h5, h6, p, ul, ol, blockquote {
 }
 
 .cover {
-    padding: 7px 0 30px 20px;
+    padding: 7px 0 0 20px;
+    min-height: 150px;
+    background-color: #1e1e1e;
+    background-image: url('../assets/images/cover.svg');
+    background-size: 95% auto;
+    background-repeat: no-repeat;
+    background-position: right;
+}
+
+.cover_text {
+color: aliceblue;
+display: block;
+font-family: 'ED Garamond regular';
+font-weight: 400;
+font-size: 72px;
+}
+
+.cover_text-2 {
+    text-align: center;
+}
+
+.cover_text-3 {
+    text-align: end;
+    padding-right: 20px;
 }
 
 .intro {
     padding: 0 20px 38px 20px;
+    background-color: #1e1e1e;
+}
+
+.intro_title {
+    color: #CCCCCC;
+}
+
+.intro_date {
+   color: #CCCCCC;
 }
 
 .reasons {
