@@ -8,6 +8,7 @@ a {
     color:aliceblue;
 }
 
+
 .header {
     padding: 24px 20px;
     background-color: black;
@@ -91,16 +92,16 @@ line-height: 100%;
 
 .intro_heading {
     display: flex;
+    color: #CCCCCC;
 }
 
 .intro_title {
-    color: #CCCCCC;
     font-size: 16px;
     font-weight: normal;
 }
 
 .intro_date {
-   color: #CCCCCC;
+    white-space: nowrap;
 }
 
 .intro_main-text {
