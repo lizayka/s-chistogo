@@ -1,5 +1,5 @@
 @font-face {
-    font-family: "EB Garamond medium";
+    font-family: "EB_Garamond_medium";
     src: local('EB-Garamond-medium'),
     local('EBGaramondMedium'),
     url('../assets/fonts/ebgaramondmedium.ttf') format('ttf'),
@@ -9,7 +9,7 @@
 }
 
 @font-face {
-    font-family: 'EB Garamond regular';
+    font-family: 'EB_Garamond_regular';
     src: local('EB-Garamond-regular'),
     local('EBGaramondRegular'),
     url(../assets/fonts/ebgaramondregular.ttf) format('ttf'),
@@ -29,7 +29,7 @@
 }
 
 @font-face {
-    font-family: 'Inter bold';
+    font-family: 'Inter_bold';
     src: local('Interbold'),
     local('Inter-bold'),
     url('../assets/fonts/interbold.ttf') format('ttf'),
