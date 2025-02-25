@@ -1,7 +1,7 @@
 body {
   margin: 0;
   background: color #1e1e1e;
-  font-family: Inter_regular, sans-serif;
+  font-family: 'Inter_regular', sans-serif;
   font-weight: 400;
 }
 a {
@@ -55,11 +55,11 @@ blockquote {
 
 .content-section_theme_bright {
   background-color: #fee42a;
-  height: 100px;
 }
 
 .content-section_theme_dark {
-  background-color: black;
+  background-color: #131313;
+  color: aliceblue;
 }
 
 .cover {
@@ -75,7 +75,7 @@ blockquote {
 .cover_text {
   color: aliceblue;
   display: block;
-  font-family: EB_Garamond_regular;
+  font-family: 'EB_Garamond_regular';
   font-weight: 400;
   font-size: 72px;
   line-height: 100%;
@@ -123,8 +123,65 @@ blockquote {
   padding: 40px 20px 39px 20px;
 }
 
+.reasons-text {
+  display: block;
+  font-family: 'EB_Garamond_medium';
+  font-weight: 500;
+  font-size: 28px;
+  line-height: 115%;
+}
+
+.reasons-text-1 {
+  text-align: end;  
+}
+
+.reasons-text-2 {
+  padding-bottom: 32px;
+}
+
+.reasons-introduction {
+  font-size: 20px;
+  line-height: 27px;
+  padding-bottom: 32px;
+}
+
+.reasons-list {
+  display: flex;
+  flex-direction: column;
+  align-content: space-between;
+  gap: 20px;
+  padding-left: 20px;
+  font-size: 16px;
+  line-height: 21.6px;
+}
+
+.list-bold {
+  font-weight: bold;
+}
+
 .how-to {
   padding: 40px 20px 60px 20px;
+}
+
+.how-to-text {
+  display: block;
+  font-family: 'EB_Garamond_medium';
+  font-weight: 500;
+  font-size: 28px;
+  line-height: 115%;
+}
+
+.how-to-text-1 {
+  text-align: end;
+}
+
+.how-to-text-2 {
+  padding-bottom: 32px;
+}
+
+.how-to-introduction {
+  font-size: 20px;
+  line-height: 135%;
 }
 
 .footer {
